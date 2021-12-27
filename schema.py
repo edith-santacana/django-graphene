@@ -88,4 +88,4 @@ result4 = schema.execute(
 
 dictResult = dict(result3.data.items())
 
-print(json.dumps(dictResult, indent=2))
+print(json.dumps(dictResult, indent=3))
